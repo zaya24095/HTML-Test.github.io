@@ -1,0 +1,82 @@
+div {
+	width: 80px;
+	height: 1px;
+	background: red;
+	transition-property: width;
+	transition-duration: 2s;
+	transition-timing-function: linear;
+	transition-delay: 1s;
+anim {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: ex;
+  animation-duration: 10s;
+}
+
+@keyframes ex {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+}
+#grad1 
+{
+	height: 55px;
+	background-color: red; /* For browsers that do not support gradients */
+	background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+div:hover {
+	width: 300px;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 500px;
+	color: black;
+}
+.flex-item-odd 
+{
+	border-top-style: solid;
+	border-color: #687291;
+	border-width: 1px;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 40px;
+	background-color: #dfe1e7;
+	
+}
+
+.flex-item-even 
+{
+	border-top-style: solid;
+	border-color: #687291;
+	border-width: 1px;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	font-family: Tahoma;
+	font-size: 40px;
+	background-color: #eeeff2;
+	
+}
+
+.flex-item-last 
+{
+	margin: auto;
+	text-align: center;
+	border: solid;
+	border-color: black;
+	border-width: 4px;
+	height: 100px;
+	width: 100px;
+	font-family: Tahoma;
+	font-size: 40px;
+	background-color: #687291;
+	line-height: 100px;
+	position: static;
+}
